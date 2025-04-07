@@ -54,6 +54,9 @@ color: #fff;
 }
 
 .sticky-buttons{
+  @media(max-width: 767px){
+    z-index: 0;
+  }
   z-index: 1;
   position: sticky;
   top: 6rem;
@@ -112,7 +115,7 @@ color: #fff;
 
 .offset-top{
   margin-top: 0;
-  position: fixed;
-  height: 100vh;
+  position: relative;
+  height: 100%;
   background: rgb(242, 242, 242);
 }
