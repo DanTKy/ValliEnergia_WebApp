@@ -3,7 +3,6 @@ import { Centrali } from '../../../interfaces/centrali';
 import { CommonModule, NgFor } from '@angular/common';
 import { DataTransferServiceService } from '../../../services/data-transfer-service.service';
 import { OnInit } from '@angular/core';
-import { window } from 'rxjs';
 import { Router } from '@angular/router';
 import { CentraliService } from '../../../services/centrali.service';
 import { Percorsi } from '../../../interfaces/percorsi';
